@@ -1,0 +1,14 @@
+*,
+*::after,
+*::before {
+    box-sizing: border-box;
+}
+
+.hidden {
+    display: none;
+}
+.nav-link.active {
+    background-color: #007bff; /* Bootstrap Primary Color */
+    color: white !important;
+    border-radius: 5px;
+}
